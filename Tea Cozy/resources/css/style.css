@@ -1,0 +1,244 @@
+body{
+  margin: 0;
+  background-color: black
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+h2 {
+  color: seashell;
+  text-align: center;
+}
+h4{
+  color: seashell;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 1232px;
+  margin: 0 auto 10px auto;
+  padding-top: 0px;
+}
+.content3{
+  margin-top: 50px;
+}
+
+
+/* Header */
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+header nav span a{
+  color: seashell;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+.logo img{
+  width: auto;
+  height: 50px;
+  margin-right: 12px;
+  color: seashell;
+}
+
+/* Images */
+
+.image-content {
+  background-image: url(../images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  margin-top: 5.7%;
+
+}
+.image-content .black-bar {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+}
+/* Image-content2 */
+
+.image-content2 {
+  background-color: black;
+  position: relative;
+}
+
+.row1{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+.row2{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 19%;
+}
+
+
+.row2 .desc,.row2 .desc1{
+  width: 300px;
+  text-align: center;
+}
+
+
+.row1 .desc,.row1 .desc1{
+  width: 300px;
+  text-align: center;
+
+}
+
+.row1 .desc1, .row2 .desc1 {
+  margin-left: 50.5px;
+}
+
+.row1 .desc h4,.row1 .desc1 h4, .row2 .desc h4, .row2 .desc1 h4{
+  margin-top: 10px;
+  color: seashell;
+
+}
+
+.row1 .desc .img1 {
+  background-image: url(../images/img-berryblitz.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+}
+.row2 .desc .img1{
+  background-image: url(../images/img-donut.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+
+}
+.row1 .desc1 .img2 {
+  background-image: url(../images/img-spiced-rum.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+}
+.row2 .desc1 .img2{
+  background-image: url(../images/img-bedford-bizarre.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+}
+.row1 .desc1 .img3 {
+  background-image: url(../images/img-donut.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 200px;
+}
+/* Image for Content3 */
+.locations-img{
+  background-image:url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+.bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+}
+.row3{
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.row3 .box1{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: auto;
+}
+.row3 .box2, .box3{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: auto;
+  margin-left: 50px;
+}
+
+
+.box1 h3, p{
+  color: seashell;
+  text-align: center;
+  padding-top: 25px;
+}
+.box2 h3, p{
+  color: seashell;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.box3 h3, p{
+  color: seashell;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+
+
+/* Tea of the Month */
+.Tea{
+  width: 1000px;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+}
+/* Info */
+.info{
+  height: 200px;
+  color: seashell;
+  text-align: center;
+  border-bottom: 0;
+
+}
+#text {
+  padding-top: 5px;
+  margin: 15px;
+
+}
+
+footer{
+  text-align: left;
+  color: seashell;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+header nav{
+  padding-right: 40px;
+
+}
